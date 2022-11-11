@@ -5,6 +5,7 @@ function loadData(records = []) {
 	var table_data = "";
 	for(let i=0; i<records.length; i++) {
 		table_data += `<tr>`;
+		table_data += `<td>${records[i].id}</td>`;
 		table_data += `<td>${records[i].movie_name}</td>`;
 		table_data += `<td>${records[i].quantity}</td>`;
 		table_data += `<td>${records[i].date}</td>`;
