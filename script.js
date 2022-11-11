@@ -9,8 +9,8 @@ function loadData(records = []) {
 		table_data += `<td>${records[i].quantity}</td>`;
 		table_data += `<td>${records[i].date}</td>`;
 		table_data += `<td>${records[i].show_time}</td>`;
-                table_data += `<td>${records[i].seats}</td>`;
-                table_data += `<td>${records[i].amount}</td>`;
+        table_data += `<td>${records[i].seats}</td>`;
+        table_data += `<td>${records[i].amount}</td>`;
 		table_data += `<td>`;
 		table_data += `<a href="edit.html?id=${records[i]._id}"><button class="btn btn-primary">Edit</button></a>`;
 		table_data += '&nbsp;&nbsp;';
@@ -47,8 +47,8 @@ function getDataById(id) {
                 document.getElementById("amount").value = data.amount;
         })
 
-	})
-}
+	}
+
 
 
 function postData() {
