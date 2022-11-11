@@ -90,7 +90,7 @@ function putData() {
    	var amount = document.getElementById("amount").value;
 
 	
-	data = {_id: _id, movie_name; movie_name, quantity: quantity, date: date, show_time: show_time, seats: seats, amount: amount};
+	data = {_id: _id, movie_name: movie_name, quantity: quantity, date: date, show_time: show_time, seats: seats, amount: amount};
 	
 	fetch(api_url, {
 		method: "PUT",
