@@ -20,7 +20,7 @@ button{
 }
 
 body{
-    background:url(https://wallpaperaccess.com/full/960588.jpg);
+    background:url(https://media.istockphoto.com/videos/gray-abstract-minimal-motion-backgrounds-loopable-elements-4k-video-id1173905761?b=1&k=20&m=1173905761&s=640x640&h=W2yXx1Aivj_gALateCrUUJ4xNpptVeDp74jAl5-Kx3w=);
     
     background-repeat: no-repeat;
     background-attachment:fixed;
